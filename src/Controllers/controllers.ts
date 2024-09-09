@@ -6,7 +6,7 @@ export const sum = async(req:Request, res:Response) => {
     if(body && typeof body === 'object'){
         const a = parseInt(body.a);
         const b = parseInt(body.b);
-        console.log(a);
+        console.log("A:",a);
 
         if(typeof a === 'number' && typeof b === 'number'){
             const sum = a + b;
