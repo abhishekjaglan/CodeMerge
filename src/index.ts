@@ -7,8 +7,8 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api',router);
+app.use('/api', router);
 
-app.listen(process.env.PORT, ()=> {
-    console.log(`Http server running on port ${process.env.PORT}`);
+app.listen(process.env.PORT, () => {
+    console.log(`Http server running on port ${process.env.PORT}!`);
 });
