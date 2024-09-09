@@ -27,6 +27,7 @@ export const subtract = async(req:Request, res:Response) => {
     if(body && typeof body === 'object'){
         const a = parseInt(body.a);
         const b = parseInt(body.b);
+        console.log("A:",a)
 
         if(typeof a === 'number' && typeof b === 'number'){
             const subtract = a - b;
